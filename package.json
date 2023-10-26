@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/JonasBorgesLM/teste-git#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
