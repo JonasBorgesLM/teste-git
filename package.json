@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitlint": "commitlint --edit",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JonasBorgesLM/teste-git/issues"
   },
-  "homepage": "https://github.com/JonasBorgesLM/teste-git#readme"
+  "homepage": "https://github.com/JonasBorgesLM/teste-git#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
