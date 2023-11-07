@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(Soma(10, 20))
+	fmt.Println(Soma(20, 20))
 }
 
 // This function is responsible for sum two numbers
