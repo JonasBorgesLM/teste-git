@@ -8,5 +8,5 @@ func main() {
 
 // This function is responsible for sum two numbers
 func Soma(a, b int) int {
-	return a * b
+	return a + b
 }
