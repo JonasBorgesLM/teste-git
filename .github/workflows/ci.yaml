@@ -28,5 +28,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
+          context: ./src
           push: false # não fazer o push no dockerhub
           tags: jonasborgeslm/teste-git:latest
