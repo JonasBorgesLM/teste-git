@@ -1,0 +1,6 @@
+projectKey=go-sonarqube
+serverUrl=http://localhost:9010
+serverVersion=10.4.1.88267
+dashboardUrl=http://localhost:9010/dashboard?id=go-sonarqube
+ceTaskId=d91eb50f-00ff-44aa-a6cb-bcbd5a47a0fa
+ceTaskUrl=http://localhost:9010/api/ce/task?id=d91eb50f-00ff-44aa-a6cb-bcbd5a47a0fa
